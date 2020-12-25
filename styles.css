@@ -1,0 +1,48 @@
+body {
+  background-color: #fadcac; 
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    color:#ec0101;
+}
+.model{
+    width: 500px;
+    float: right;
+    height: 300px;
+    padding-bottom: 500px;
+    background-color: #fadcac;
+    font-size: x-large;
+}
+.button {
+    background-color: #fadcac; 
+    border: 2px solid red;
+    color: #f44336;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #f44336;
+    color: #fadcac;
+  }
+
+.wish{
+   display:block;
+   margin:auto;
+   padding-top:70px;
+
+}
+.gift{
+    position:absolute;
+    left:15%;
+    margin:auto;
+    padding:50px;
+}
+.gift:hover{
+    background: url("wishes.html") no-repeat
+} 
